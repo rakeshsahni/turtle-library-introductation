@@ -1,0 +1,15 @@
+import turtle as t
+#for forward direction
+#t.fd(200)
+#for backward direction
+#t.bk(200)
+# t.circle contains 3 arguments
+# 1.) radius of circle
+# 2.) angle of arc
+# 3.) no of turns in one circle
+#t.circle(100,360,6)
+t.pensize(10)
+t.color("red")
+#t.fd(100)
+for i in range (50) :
+    t.circle(2*i,45)
